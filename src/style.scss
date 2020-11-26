@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(82, 37, 189);
+}
+
+.inputContainer {
+  padding: 40px;
+  .searchBar {
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+
+  .cardContainer {
+    background-color: white;
+    width: 45%;
+    border-radius: 10px;
+    min-height: 350px;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .imgContainer {
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .title {
+    font-weight: bold;
+    margin: 20px;
+    font-size: 24px;
+  }
+
+  .desc {
+    margin-left: 20px;
+    margin-bottom: 85px;
+  }
+}
